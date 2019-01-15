@@ -3,7 +3,6 @@ html{
     min-height: 100%;
 }
 body {
-
     background-image: url("../images/white-waves.png")
 }
 
@@ -160,25 +159,132 @@ input[type=text], select, textarea {
     float: left;
 }
 #textoverlay1 {
-    top: 300px;
+    bottom: 23px;
 }
 #textoverlay2 {
     bottom: 23px;
     left: 165px;
 }
 #textoverlay3 {
-    top: 468px;
+    bottom: 23px;
 }
 #textoverlay4 {
     bottom: 23px;
     left: 165px;
 }
 #textoverlay5 {
-    top: 636px;
+    bottom: 23px;
+}
+.wrapper1 {
+    position: relative;
 }
 .wrapper2 {
     position: relative;
 }
+.wrapper3 {
+    position: relative;
+}
 .wrapper4 {
     position: relative;
+}
+.wrapper5 {
+    position: relative;
+}
+@media screen and (max-width:980px) {
+.div1 {
+    width: 95%;
+    margin: auto;
+}
+.container {
+    width: 75%;
+    margin-left: 20px;
+}
+p {
+    font-size: 12px;
+}
+a {
+    text-align: right;
+}
+.portfolio {
+    margin-right: 20px;
+}
+
+#div1 {
+    width: 95%;
+    margin: auto;
+}
+}
+@media screen and (max-width:768px) {
+.container {
+    width: 95%;
+    margin: auto;
+}
+#container3 {
+    width: 95%;
+    margin: 0 auto;
+}
+#div1 {
+    width: 95%;
+    margin: auto;
+}
+#city, #headphones, #ipad, #motherboard, #water {
+    width: 225px;
+    height: 225px;
+}
+.textoverlay {
+    width: 225px;
+    height: 30px;
+}
+#textoverlay2, #textoverlay4 {
+    left: 265px;
+}
+}
+@media screen and (max-width:640px) {
+h1 {
+    float: none;
+    width: 100%;
+}
+.div1 {
+    width: 100%;
+}
+#div1 {
+    width: 100%;
+}
+nav {
+    width: 100%;
+    background: white;
+    text-align: center;
+}
+.container {
+    margin-top: 50px;
+}
+#container3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#aboutmephoto {
+    float: none;
+    height: 100%;
+    width: 100%;
+}
+p {
+    font-size: 9px;
+}
+#divpic1 {
+    float: none;
+}
+#divpic2 {
+    
+}
+#divpic3 {
+    float: none;
+}
+#headphones, #motherboard {
+    padding: 0px;
+}
+#textoverlay2, #textoverlay4 {
+    left: 0;
+    bottom: 3px;
+}
+
 }
