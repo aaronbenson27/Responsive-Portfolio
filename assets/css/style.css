@@ -27,7 +27,8 @@ header {
     background: #ffffff;
 }
 #container3 {
-    width: 500px
+    width: 500px;
+    height: 600px;
 }
 p {
     line-height: 2em;
@@ -144,6 +145,12 @@ input[type=text], select, textarea {
 #divpic1 {
     float: left;
 }
+#divpic2, #divpic4 {
+    float: left;
+}
+#divpic5 {
+    float: left;
+}
 .textoverlay {
     color: white;
     background: #4aaaa5;
@@ -163,14 +170,14 @@ input[type=text], select, textarea {
 }
 #textoverlay2 {
     bottom: 23px;
-    left: 165px;
+    left: 20px;
 }
 #textoverlay3 {
     bottom: 23px;
 }
 #textoverlay4 {
     bottom: 23px;
-    left: 165px;
+    left: 20px;
 }
 #textoverlay5 {
     bottom: 23px;
@@ -215,86 +222,88 @@ a {
 }
 }
 @media screen and (max-width:768px) {
-.container {
-    width: 95%;
-    margin: auto;
-}
-#container3 {
-    width: 95%;
-    margin: 0 auto;
-}
-#div1 {
-    width: 95%;
-    margin: auto;
-}
-#city, #headphones, #ipad, #motherboard, #water {
-    width: 225px;
-    height: 225px;
-}
-.textoverlay {
-    width: 225px;
-    height: 30px;
-}
-#textoverlay2, #textoverlay4 {
-    left: 265px;
-}
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    #container3 {
+        width: 95%;
+        margin: 0 auto;
+        height: 950px;
+    }
+    #div1 {
+        width: 95%;
+        margin: auto;
+    }
+    #city, #headphones, #ipad, #motherboard, #water {
+        width: 225px;
+        height: 225px;
+    }
+    .textoverlay {
+        width: 225px;
+        height: 30px;
+    }
+    #textoverlay2, #textoverlay4 {
+        left: 20px;
+    }
 }
 @media screen and (max-width:640px) {
-h1 {
-    float: none;
-    width: 100%;
-}
-.div1 {
-    width: 100%;
-}
-#div1 {
-    width: 100%;
-}
-nav {
-    width: 100%;
-    background: white;
-    text-align: center;
-}
-.container {
-    margin-top: 50px;
-}
-#container3 {
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-#aboutmephoto {
-    float: none;
-    height: 100%;
-    width: 100%;
-}
-p {
-    font-size: 10px;
-}
-#divpic1 {
-    float: none;
-}
-#divpic2 {
-    
-}
-#divpic3 {
-    float: none;
-}
-#headphones, #motherboard {
-    padding: 0px;
-}
-#textoverlay2, #textoverlay4 {
-    left: 0;
-    bottom: 3px;
-}
-#city, #headphones, #ipad, #motherboard, #water {
-    width: 100%;
-    height: 350px;
-    
-}
-.textoverlay {
-    width: 100%;
-    height: 75px;
-    font-size: 30px;
-    line-height: 75px;
-}
+    h1 {
+        float: none;
+        width: 100%;
+    }
+    .div1 {
+        width: 100%;
+    }
+    #div1 {
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+        background: white;
+        text-align: center;
+    }
+    .container {
+        margin-top: 50px;
+    }
+    #container3 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        height: 2000px;
+    }
+    #aboutmephoto {
+        float: none;
+        height: 100%;
+        width: 100%;
+    }
+    p {
+        font-size: 10px;
+    }
+    #divpic1 {
+        float: none;
+    }
+    #divpic2, #divpic4, #divpic5 {
+        float: none;
+    }
+    #divpic3 {
+        float: none;
+    }
+    #headphones, #motherboard {
+        padding: 0px;
+    }
+    #textoverlay2, #textoverlay4 {
+        left: 0;
+        bottom: 3px;
+    }
+    #city, #headphones, #ipad, #motherboard, #water {
+        width: 100%;
+        height: 350px;
+        
+    }
+    .textoverlay {
+        width: 100%;
+        height: 75px;
+        font-size: 30px;
+        line-height: 75px;
+    }
 }
